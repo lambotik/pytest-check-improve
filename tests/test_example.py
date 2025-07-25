@@ -11,4 +11,4 @@ class TestExample:
         page.check_equal_with_line(2, 2)
         page.check_equal_with_line(3, 3)
         page.check_equal_with_line(['a', 'b', 'c'], ['a', 'b'], 'Lists is dose not match')
-        page.check_equal_with_line('karamba', 'karAmba')
+        page.check_equal_with_line('karamba', 'karAmba', 'Text dose not match')
