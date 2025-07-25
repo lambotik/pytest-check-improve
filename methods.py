@@ -25,9 +25,10 @@ class Improve:
 
     def check_equal_with_line(self, actual, expected, note=""):
         """
+        Сравнивает actual и expected
         🔎 Добавляет шаг в Allure:
          — при ошибке включает номер строки;
-        — при успехе — только краткую отметку.
+         — при успехе — только краткую отметку.
         """
 
         call_site = self.get_test_call_site()  # фиксируем до вызова check.equal
@@ -37,6 +38,6 @@ class Improve:
                 print(f"❌ {msg}: ожидается <{expected}>, получено <{actual}>")
         else:
             msg = f"{note}"
-            with allure.step(f"✅ Проверка: значение корректно <{actual}> — {msg}"):
+            with allure.step(f"✅ Проверка: значение <{actual}> корректно.{msg}"):
                 ...
         check.equal(actual, expected, msg=msg)
