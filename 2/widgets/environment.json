@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "f8d94577dc194c12d7fc9153da419b2a57bae1c0" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Added translate" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "lambotik1988@gmail.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2025-07-31 14:39:04 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "138.0.7204.168" ],
+  "name" : "CHROME_VERSION"
+}, {
+  "values" : [ "https://lambotik.github.io/pytest-check-improve" ],
+  "name" : "URL"
+} ]

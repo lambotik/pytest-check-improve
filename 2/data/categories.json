@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example() -> page.check_equal_with_line(1, 2)\nmethods.py:41 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+      "children" : [ {
+        "name" : "Example for equal",
+        "uid" : "deb36280811807a0",
+        "parentUid" : "39de0ce116ba54c33f38d6351fcf0883",
+        "status" : "failed",
+        "time" : {
+          "start" : 1753962021265,
+          "stop" : 1753962021287,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39de0ce116ba54c33f38d6351fcf0883"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

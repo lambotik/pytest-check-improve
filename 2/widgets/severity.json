@@ -1,0 +1,11 @@
+[ {
+  "uid" : "deb36280811807a0",
+  "name" : "Example for equal",
+  "time" : {
+    "start" : 1753962021265,
+    "stop" : 1753962021287,
+    "duration" : 22
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
