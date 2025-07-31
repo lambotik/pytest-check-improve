@@ -1,0 +1,11 @@
+[ {
+  "uid" : "f5a1003a1ae32713",
+  "name" : "Example for equal",
+  "time" : {
+    "start" : 1753960846204,
+    "stop" : 1753960846226,
+    "duration" : 22
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

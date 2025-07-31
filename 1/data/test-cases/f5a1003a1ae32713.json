@@ -1,0 +1,149 @@
+{
+  "uid" : "f5a1003a1ae32713",
+  "name" : "Example for equal",
+  "fullName" : "tests.test_example.TestExample#test_example_assert_and_soft_assert",
+  "historyId" : "0d1d045a1a5343b5c7f731cafeafb681",
+  "time" : {
+    "start" : 1753960846204,
+    "stop" : 1753960846226,
+    "duration" : 22
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example_assert_and_soft_assert() -> page.check_equal_with_line(1, 2)\nmethods.py:43 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+  "statusTrace" : "FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example_assert_and_soft_assert() -> page.check_equal_with_line(1, 2)\nmethods.py:43 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example_assert_and_soft_assert() -> page.check_equal_with_line(1, 2)\nmethods.py:43 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+    "statusTrace" : "FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example_assert_and_soft_assert() -> page.check_equal_with_line(1, 2)\nmethods.py:43 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+    "steps" : [ {
+      "name" : "❌ Ошибка: ожидается <2>, получено <1> —  \uD83D\uDCCD (test_example.py:10)",
+      "time" : {
+        "start" : 1753960846221,
+        "stop" : 1753960846221,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "✅ Проверка: значение <2> корректно.",
+      "time" : {
+        "start" : 1753960846223,
+        "stop" : 1753960846223,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "✅ Проверка: значение <3> корректно.",
+      "time" : {
+        "start" : 1753960846224,
+        "stop" : 1753960846224,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "❌ Ошибка: ожидается <['a', 'b']>, получено <['a', 'b', 'c']> — Lists is dose not match \uD83D\uDCCD (test_example.py:13)",
+      "time" : {
+        "start" : 1753960846225,
+        "stop" : 1753960846225,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "❌ Ошибка: ожидается <karAmba>, получено <karamba> — Text dose not match \uD83D\uDCCD (test_example.py:14)",
+      "time" : {
+        "start" : 1753960846226,
+        "stop" : 1753960846226,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExample"
+  }, {
+    "name" : "host",
+    "value" : "pkrvmjbmru5nbw0"
+  }, {
+    "name" : "thread",
+    "value" : "2574-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f5a1003a1ae32713.json",
+  "parameterValues" : [ ]
+}

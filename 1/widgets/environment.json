@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "df7c42675dd1cae6977c6d28554a15e0a7922c7e" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Added workflows" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "lambotik1988@gmail.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2025-07-31 14:20:05 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "138.0.7204.168" ],
+  "name" : "CHROME_VERSION"
+}, {
+  "values" : [ "https://lambotik.github.io/pytest-check-improve" ],
+  "name" : "URL"
+} ]

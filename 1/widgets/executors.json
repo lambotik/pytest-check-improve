@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://lambotik.github.io/pytest-check-improve",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #16647568114",
+  "buildUrl" : "https://github.com/lambotik/pytest-check-improve/actions/runs/16647568114",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://lambotik.github.io/pytest-check-improve/1/"
+} ]
