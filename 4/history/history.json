@@ -1,0 +1,54 @@
+{
+  "0d1d045a1a5343b5c7f731cafeafb681" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5a1003a1ae32713",
+      "reportUrl" : "https://lambotik.github.io/pytest-check-improve/1//#testresult/f5a1003a1ae32713",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example_assert_and_soft_assert() -> page.check_equal_with_line(1, 2)\nmethods.py:43 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+      "time" : {
+        "start" : 1753960846204,
+        "stop" : 1753960846226,
+        "duration" : 22
+      }
+    } ]
+  },
+  "2133fcefc80b68a454be42153edbc3e8" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "aba2d7934988dd4e",
+      "reportUrl" : "https://lambotik.github.io/pytest-check-improve/3//#testresult/aba2d7934988dd4e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example() -> page.check_equal_with_line(1, 2)\nmethods.py:41 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+      "time" : {
+        "start" : 1753962169731,
+        "stop" : 1753962169753,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "deb36280811807a0",
+      "reportUrl" : "https://lambotik.github.io/pytest-check-improve/2//#testresult/deb36280811807a0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: FAILURE: check 1 == 2:  \uD83D\uDCCD (test_example.py:10)\ntests/test_example.py:10 in test_example() -> page.check_equal_with_line(1, 2)\nmethods.py:41 in check_equal_with_line() -> check.equal(actual, expected, msg=msg)\n\nFAILURE: check ['a', 'b', 'c'] == ['a', 'b']: Lists is dose not match \uD83D\uDCCD (test_example.py:13)\nFAILURE: check karamba == karAmba: Text dose not match \uD83D\uDCCD (test_example.py:14)\n------------------------------------------------------------\nFailed Checks: 3",
+      "time" : {
+        "start" : 1753962021265,
+        "stop" : 1753962021287,
+        "duration" : 22
+      }
+    } ]
+  }
+}
