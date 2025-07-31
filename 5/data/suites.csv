@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jul 31 11:50:45 GMT 2025","Thu Jul 31 11:50:45 GMT 2025","23","tests","test_example","TestExample","","","Example for equal",""

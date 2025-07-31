@@ -1,0 +1,19 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "dd493f1598a70980ac68466c46ab19c8636486d2" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Update workflow" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "lambotik1988@gmail.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2025-07-31 14:50:00 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "https://lambotik.github.io/pytest-check-improve" ],
+  "name" : "URL"
+} ]

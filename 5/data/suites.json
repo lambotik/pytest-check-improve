@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_example",
+      "children" : [ {
+        "name" : "TestExample",
+        "children" : [ {
+          "name" : "Example for equal",
+          "uid" : "ad4ddaa53235a467",
+          "parentUid" : "dba2c98cf57337371168134be9b6792d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1753962645366,
+            "stop" : 1753962645389,
+            "duration" : 23
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dba2c98cf57337371168134be9b6792d"
+      } ],
+      "uid" : "d892bcee413138327cd64de6b84adf04"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}
