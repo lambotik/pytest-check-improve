@@ -4,8 +4,9 @@ The key improvement is the output to the console of the line number where the ch
 
 To view the example test report, click the button: [![Allure Report](https://img.shields.io/badge/Allure%20Report-deployed-green)](https://lambotik.github.io/pytest-check-improve)
 
-[For example](https://github.com/lambotik/pytest-check-improve/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-07-31%20145350.png)
-[](https://github.com/lambotik/pytest-check-improve/blob/main/screenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202025-07-31%20145808.png)
+![Screenshot 1](https://github.com/lambotik/pytest-check-improve/blob/main/screenshots/Снимок%20экрана%202025-07-31%20145350.png?raw=true)
+![Screenshot 2](https://github.com/lambotik/pytest-check-improve/blob/main/screenshots/Снимок%20экрана%202025-07-31%20145808.png?raw=true)
+
 ```
 pytest --alluredir=allure-results
 ```
