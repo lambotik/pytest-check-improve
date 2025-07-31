@@ -1,12 +1,12 @@
 import allure
 
-from methods import Improve
+from methods import Improvement
 
 
 class TestExample:
     @allure.title('Example for equal')
-    def test_example_assert_and_soft_assert(self):
-        page = Improve()
+    def test_example(self):
+        page = Improvement()
         page.check_equal_with_line(1, 2)
         page.check_equal_with_line(2, 2)
         page.check_equal_with_line(3, 3)
