@@ -1,4 +1,4 @@
-# pytest-check-improve
+# pytest-check-improvement
 ## Here is a variant of improving pytest-check methods to simplify debugging when there are a large number of checks within a single test.
 The key improvement is the output to the console of the line number where the check was unsuccessful and adding this data to allure. This improves the readability of the report. Emojis ❌✅ have also been added for faster search in the console and report.
 
