@@ -1,0 +1,19 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "88c0579ac080a22a51915806f23e2e23db2bc293" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Update README.md" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "91555504+lambotik@users.noreply.github.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2025-08-04 14:33:55 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "https://lambotik.github.io/pytest-check-improvement" ],
+  "name" : "URL"
+} ]
